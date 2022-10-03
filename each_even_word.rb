@@ -11,6 +11,8 @@ entered_array.each do |word_in_array|
   if (word_in_array.length.even?)
     result_array.push(word_in_array)
   end
+end
+result_array.each do|word_in_res|
+  p word_in_res
 end 
-p result_array.join(" ")
 
